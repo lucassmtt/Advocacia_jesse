@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+header{
+    background-image: url(../imagens/foto-simbolo.jpg);
+    background-position: center;
+    height: 200px;
+    width: 700px;
+}
+
+article{
+    background-color: rgb(153, 152, 150);
+    text-align: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 600px;
+    height: 98vh;
+}
