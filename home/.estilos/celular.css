@@ -6,11 +6,17 @@
 
 }
 
+
+
 header{
     background-image: url(../imagens/foto-simbolo.jpg);
     background-position: center;
     height: 200px;
     width: 700px;
+}
+
+ul{
+    background-color: black;
 }
 
 article{
