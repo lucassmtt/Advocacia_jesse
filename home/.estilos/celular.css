@@ -3,28 +3,61 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*
+    cores principais:
+        #1E1E1E = preto(dock)
+        #191919 = preto(footer)
 
+    tam: 
+        390width
+        844height
+*/
+
+body{
+    background-color: white;
 }
 
-
-
 header{
-    background-image: url(../imagens/foto-simbolo.jpg);
-    background-position: center;
-    height: 200px;
-    width: 700px;
+    background:#272626ad;
+    box-shadow: 2px 2px 2px ;
+}
+
+header > h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+nav{
+    background-color: #b4afaf;
+    
+}
+
+span{
+    padding: 10px;
+    padding-left: 30px;
 }
 
 ul{
-    background-color: black;
+    padding-top: 40px;
+    text-decoration: none;
+    display: none;
 }
 
+li{
+    text-decoration: none;
+
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+    width: 330px;
+}
 article{
-    background-color: rgb(153, 152, 150);
-    text-align: center;
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-flow: row;
-    width: 600px;
-    height: 98vh;
+
 }
