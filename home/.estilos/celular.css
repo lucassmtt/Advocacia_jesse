@@ -21,7 +21,6 @@ body{
 
 header{
     background:#272626ad;
-    box-shadow: 2px 2px 2px ;
 }
 
 header > h2{
@@ -31,25 +30,48 @@ header > h2{
     color: aliceblue;
 }
 
+#primeiro_texto{
+    padding: 20px;
+}
 nav{
-    background-color: #b4afaf;
-    
+    background-color: #b4afaf;       
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.509);
 }
 
+nav:hover{
+
+}
 span{
     padding: 10px;
     padding-left: 30px;
 }
 
 ul{
-    padding-top: 40px;
-    text-decoration: none;
     display: none;
+
 }
 
 li{
+    padding: 10px;
     text-decoration: none;
+    padding-left: 58px;
+}
 
+li:hover{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+span{
+    cursor: pointer;
+}
+
+iframe{
+    padding-left: 20px;
 }
 
 p{

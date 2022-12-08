@@ -19,23 +19,27 @@
 </head>
 <body>
     <header>
-        <h2>Jesse Advocacia</h2>
+        <h2>Freitas Advocacia</h2>
     </header>
-    <nav>
-        <span class="material-symbols-outlined">
+    <nav >
+        <span class="material-symbols-outlined" onclick="abrir_menu()">
             menu
         </span>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contrate-nos</a></li>
-            <li><a href="#">Saber Mais</a></li>
-            <li><a href="#">Instagram</a></li>
+        <ul id="menu">
+            <li type="none"><a href="#">Home</a></li>
+            <li type="none"><a href="#">Contrate-nos</a></li>
+            <li type="none"><a href="#">Saber Mais</a></li>
+            <li type="none"><a href="#">Artigos</a></li>
         </ul>
     </nav>
     <main>
         <article>
+            <h2 id="primeiro_texto">Com experiência, sem burocracia</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa odit beatae numquam esse? Possimus dignissimos voluptatem facere. Ex nostrum nobis ipsum. Vitae culpa soluta sequi placeat dolores laudantium voluptatem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio necessitatibus, cupiditate illum fuga eius maiores, ab ipsa, dolorum explicabo perspiciatis praesentium porro corporis. Et tempora, ea aut voluptas quaerat molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptas consequatur asperiores inventore quibusdam sequi iusto sit maiores corporis? Deleniti aspernatur atque assumenda obcaecati quae explicabo officiis tempora adipisci necessitatibus!
+            </p>
+            <iframe width="340" height="250" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa odit beatae numquam esse? Possimus dignissimos voluptatem facere. Ex nostrum nobis ipsum. Vitae culpa soluta sequi placeat dolores laudantium voluptatem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio necessitatibus, cupiditate illum fuga eius maiores, ab ipsa, dolorum explicabo perspiciatis praesentium porro corporis. Et tempora, ea aut voluptas quaerat molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptas consequatur asperiores inventore quibusdam sequi iusto sit maiores corporis? Deleniti aspernatur atque assumenda obcaecati quae explicabo officiis tempora adipisci necessitatibus!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa odit beatae numquam esse? Possimus dignissimos voluptatem facere. Ex nostrum nobis ipsum. Vitae culpa soluta sequi placeat dolores laudantium voluptatem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio necessitatibus, cupiditate illum fuga eius maiores, ab ipsa, dolorum explicabo perspiciatis praesentium porro corporis. Et tempora, ea aut voluptas quaerat molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptas consequatur asperiores inventore quibusdam sequi iusto sit maiores corporis? Deleniti aspernatur atque assumenda obcaecati quae explicabo officiis tempora adipisci necessitatibus!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa odit beatae numquam esse? Possimus dignissimos voluptatem facere. Ex nostrum nobis ipsum. Vitae culpa soluta sequi placeat dolores laudantium voluptatem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio necessitatibus, cupiditate illum fuga eius maiores, ab ipsa, dolorum explicabo perspiciatis praesentium porro corporis. Et tempora, ea aut voluptas quaerat molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptas consequatur asperiores inventore quibusdam sequi iusto sit maiores corporis? Deleniti aspernatur atque assumenda obcaecati quae explicabo officiis tempora adipisci necessitatibus!
@@ -46,5 +50,14 @@
 
         </footer>
     </main>
+    <script>
+        function abrir_menu(){
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            }else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
