@@ -20,14 +20,13 @@ body{
 }
 
 header{
-    background:#272626ad;
+    background: url(../imagens/logo_pequena.png) no-repeat center left;
+    padding: 20px;
 }
 
 header > h2{
-    text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
-    color: aliceblue;
+    color: black;
 }
 
 #primeiro_texto{
