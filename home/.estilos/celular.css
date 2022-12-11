@@ -73,11 +73,15 @@ iframe{
     padding-left: 20px;
 }
 
+#foto{
+    background: url(../imagens/foto-simbolo.jpg);
+}
+
 p{
-    text-align: justify;
+    margin: auto;
     text-indent: 30px;
     padding: 20px;
-    width: 330px;
+    width: 360px;
 }
 article{
 
