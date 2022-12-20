@@ -11,20 +11,25 @@
         .material-symbols-outlined {
           font-variation-settings:
           'FILL' 0,
-          'wght' 300,
+          'wght' 400,
           'GRAD' 0,
           'opsz' 48
         }
-    </style>
+        </style>
 </head>
 <body>
     <header>
-        <h2>Advocacia</h2>
+        <h2 id="title_advocacia">Advocacia</h2>
     </header>
+
+    <span class="material-symbols-outlined" onclick="abrir_menu()">
+        menu
+    </span>
+    <div id="whatsapp">
+        <a href="https://contate.me/freitasadvocacia" target="_blank"><img src="imagens/whatsapp-logo-5.png" alt="Link para o Whatsapp"></a>
+    </div>
     <nav >
-        <span class="material-symbols-outlined" onclick="abrir_menu()">
-            menu
-        </span>
+        
         <ul id="menu">
             <li type="none"><a href="#">Contrato</a></li>
             <li type="none"><a href="#">Contrate-nos</a></li>
@@ -32,30 +37,34 @@
             <li type="none"><a href="#">Artigos</a></li>
         </ul>
     </nav>
-    <main>
+    <main>            
         <article>
-                <h2>DIREITO ADMINISTRATIVO</h2>
-                <p>
-                     Processos administrativos disciplinares;
-                     Acompanhamento de Processos Administrativos Disciplinares, Sindicância, Inquérito Administrativo ou de qualquer outra natureza, seja em situações envolvendo servidores civis ou militares;
-                     Anulação de Demissão Ilegal;
-                     Ações de Reintegração ao Cargo Público de Servidores Exonerados;
-                     Anulação de Atos Administrativos;
-                     Demissão de Servidor Público por Ato de Improbidade Administrativa;
-                     Reprovação em exame médico e avaliação psicológica
-                </p>
-                
-                <h2>DIREITO CRIMINAL</h2>
-                <p>
-                    Defesa em delegacia de Polícia (flagrante delito);
-                    Defesa em processos Criminais;
-                    Impetração de habeas corpus;
-                    Sustentação oral em Tribunal;
-                    Audiência de custódia;
-                    Defesa em Ação Penal
-                    Trancamento de ação penal
-                    Recursos Criminais para TJ
-                </p>
+            <h2 id="titleprocess">DIREITO ADMINISTRATIVO</h2>
+
+                <li>PROCESSOS ADMINISTRATIVOS DISCIPLINARES;</li>
+                <li>ACOMPANHAMENTO DE PROCESSOS ADMINISTRATIVOS DISCIPLINARES, </li>
+                <li>SINDICÂNCIA, INQUÉRITO ADMINISTRATIVO OU DE QUALQUER OUTRA NATUREZA, SEJA EM SITUAÇÕES ENVOLVENDO SERVIDORES CIVIS OU MILITARES;</li>
+                <li>ANULAÇÃO DE DEMISSÃO ILEGAL;</li>
+                <li>AÇÕES DE REINTEGRAÇÃO AO CARGO PÚBLICO DE SERVIDORES EXONERADOS;</li>
+                <li>ANULAÇÃO DE ATOS ADMINISTRATIVOS;</li>
+                <li>DEMISSÃO DE SERVIDOR PÚBLICO POR ATO DE IMPROBIDADE ADMINISTRATIVA;</li>
+                <li>REPROVAÇÃO EM EXAME MÉDICO E AVALIAÇÃO PSICOLÓGICADIREITO CRIMINAL </li>
+            </ul>
+            <div id="divum">
+                <ul id="process_content">
+            </div>
+            <div id="divdois">
+                <h2 id="titleprocess">DIREITO CRIMINAL</h2>
+                    <li>DEFESA EM DELEGACIA DE POLÍCIA (FLAGRANTE DELITO);</li>
+                    <li>DEFESA EM PROCESSOS CRIMINAIS;</li>
+                    <li>IMPETRAÇÃO DE HABEAS CORPUS;</li>
+                    <li>SUSTENTAÇÃO ORAL EM TRIBUNAL;</li>
+                    <li>AUDIÊNCIA DE CUSTÓDIA; </li>
+                    <li>DEFESA EM AÇÃO PENAL </li>
+                    <li>TRANCAMENTO DE AÇÃO PENAL </li>
+                    <li>RECURSOS CRIMINAIS PARA TJ</li>
+                </ul>
+            </div>
         </article>
         <footer>
 

@@ -29,6 +29,16 @@ header > h2{
     color: black;
 }
 
+#title_advocacia{
+    padding-left: 50px;
+}
+
+#titleprocess{
+    color: #1E1E1E;
+    padding: 20px;
+    padding-left: 40px;
+}
+
 #primeiro_texto{
     padding: 20px;
 }
@@ -37,12 +47,32 @@ nav{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.509);
 }
 
+#divum{
+    background: url(../imagens/foto-simbolo\(1\).jpg) right center no-repeat;
+    padding: 0px;
+}
+
+div#whatsapp{
+    display: inline-block;
+}
+
+
+
+/* #divdois{
+    background: url(../imagens/foto-simbolo.jpg) center;
+} */
+
 nav:hover{
 
 }
 span{
     padding: 10px;
     padding-left: 30px;
+}
+
+ul#process_content{
+    display: block;
+    padding-top: 600px;
 }
 
 ul{
