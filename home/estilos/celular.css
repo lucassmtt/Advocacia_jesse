@@ -26,12 +26,21 @@ header{
 nav{
     background-color: #ae4444;       
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.509);
+    padding: 13px;
 }
 
 ul{
     display: none;
 }
 
+li{
+    text-decoration-line: none;
+    display: flexbox;
+}
+
+li:hover{
+    background-color: black;
+}
 /* ul#menu{
     text-decoration: none;
 } */
