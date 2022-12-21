@@ -21,16 +21,19 @@
     <header>
         <h1>Ola mundo</h1>
     </header>
+
     <nav >
-        <span class="material-symbols-outlined" id="menu" onclick="abrir_menu()">
-            menu
-        </span>
-        <ul id="menu">
-            <li type="none"><a href="#">Contrato</a></li>
-            <li type="none"><a href="#">Contrate-nos</a></li>
-            <li type="none"><a href="#">Saber Mais</a></li>
-            <li type="none"><a href="#">Artigos</a></li>
-        </ul>
+        <div >
+            <span class="material-symbols-outlined" onclick="abrir_menu()" >menu</span>
+        </div>
+        <div >
+            <ul id="itens">
+                <li type="none"><a href="#">Contrato</a></li>
+                <li type="none"><a href="#">Contrate-nos</a></li>
+                <li type="none"><a href="#">Saber Mais</a></li>
+                <li type="none"><a href="#">Artigos</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <article>
@@ -174,14 +177,13 @@
 
     <script>
         function abrir_menu(){
-            if (menu.display.style == 'block'){
-                menu.display.style = 'none'
+            if (itens.style.display == 'none'){
+                itens.style.display = 'block'
             }else{
-                menu.display.style = 'block'
+                itens.style.display = 'none'
             }
         }
-    </script>    
-
+    </script>
 </body>
 
 </html>
